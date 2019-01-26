@@ -1,8 +1,8 @@
-#Las Ciencias sociales y los estudios sociales
+# Las Ciencias sociales y los estudios sociales
 
 -------------------------
 
-##Origen de las ciencias sociales
+## Origen de las ciencias sociales
 
 La ciencia denominada natural es la que más se desarrolló en un inicio de la mano de la física, química y biología. Dentro del mundo occidental, los primeros estudios acerca de la organización social fueron elaborados por el filósofo griego Aristóteles con su libro *la Política*, en el cual se sientan las bases del análisis sociopolítico que tuvieron una influencia directa en muchos científicos sociales y posteriores.
 
