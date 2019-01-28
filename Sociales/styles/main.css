@@ -1,0 +1,780 @@
+html {margin: 0;padding: 0;}
+
+@font-face {
+    font-family: Product;
+    src: url(../fonts/Product\ Sans\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Product-b;
+    font-weight: bold;
+    src: url(../fonts/Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+    font-family: Product-i;
+    font-style: italic;
+    src: url(../fonts/Product\ Sans\ Italic.ttf);
+}
+
+@font-face {
+    font-family: Product-ib;
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/Product\ Sans\ Bold\ Italic.ttf);
+}
+
+body {
+    font-family: Product;
+    font-size: 17px;
+    background-color: #efefef;
+    padding: 0px;
+    margin-top: 0;
+    
+
+}
+
+b {
+    font-family: Product-b;
+}
+
+i {
+    font-family: Product-i;
+}
+
+header {
+    
+    background-image: url(../images/socbanner.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    height: 250px;
+
+}
+
+#estudiossociales {
+font-weight: bolder;
+font-size: 60px;
+margin-top: 70px;
+}    
+
+
+article {
+   
+    margin: 70px;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+
+
+#navsoc {
+   
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-color: #64dd17;
+    overflow: hidden;  
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+#navsoc li {
+   float: left; 
+}
+
+#navsoc li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+}
+
+#navsoc a:hover {
+    background-color: #0091ea;
+}
+
+.right {
+    margin-left: 758px;
+}
+
+
+h2 {
+    color: #0091ea;
+    font-weight: bold;
+}
+
+.flechas {
+    text-align: center;
+}
+
+svg {
+    margin: 5px;
+}
+
+footer  {
+    
+    color: #bdbdbd;
+}
+
+footer a{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nmbunidades {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.txtunidades {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.numunidades {
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+.nmbtema a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#0d47a1;
+    padding: 5px;
+
+}
+
+.adc a {
+    font-size: 20px;
+    text-decoration: none;
+    color:#212121
+}
+
+
+.evaluacion a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #64dd17;
+    background-color:#f9fbe7;
+}
+
+.nmbtema {
+    background-color: #e3f2fd;
+    color:#0d47a1;
+    
+}
+
+.nmbtema ul {
+    background-color: white;
+}
+
+.nmbtema ul a {
+    color: #212121;
+    font-size: 19px;
+}
+
+#unidad1 {
+    background-color: #ffbf00;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    margin-top: -130px;
+}
+
+#tltunidad1 {
+    color: #0091ea;
+    font-size: 50px;
+    margin-top: -100px;
+}
+
+hr {
+    color: #0091ea;
+    background-color: #0091ea;
+    height: 5px;                  
+}
+
+.subt {
+    color: #0091ea;
+}
+
+#problema {
+    float: right;
+}
+
+ul {
+    list-style-type: square;
+    color: #0091ea;
+}
+
+ul  p {
+    color:#212121;
+}
+
+ol {
+    color: #0091ea;
+}
+
+ol p {
+    color: #212121;
+}
+
+.actividades {
+    color:#ffbf00;
+}
+ 
+.hractividades {
+    color: #64dd17;
+    background-color: #64dd17;
+    height: 5px;
+}
+
+.actividad1 {
+    width: 300px;
+    height:100px;
+    
+}
+
+#ulrightact1 {
+    float: right;
+    margin-top: -1000;
+   
+    
+}
+
+
+.boton {
+    display: block;
+    background-color: #ffbf00;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aris {
+    float: left;
+    border: 5px solid  #616161;
+    width:220px;
+    text-align: center;
+    margin-top: 15px;
+    color: #616161;
+}
+
+#imgaris {
+    width: 200px;
+    height: 230px;
+}
+
+
+
+#sectema1 {
+    margin-left: 275px;
+    margin-top: -850px;
+}
+
+.refdoc {
+    color:#64dd17;
+}
+
+#crowd {
+    margin-top: 100px;
+    width: 230px;
+    
+}
+
+#imgcrowd {
+    margin-top: 150px; 
+    width: 230px;
+    height: 125px;
+}
+
+.titdocumento {
+    color: #64dd17;
+}
+
+.documento {
+    background-color: #fff59d;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.autordoc {
+    text-align: right;
+}
+
+#jurgen {
+    float: right;
+    width: 220px;
+    border: 5px solid #616161;
+    text-align: center;
+}
+
+#imgjurgen {
+    text-align: center;
+    width:200px;
+    height: 270px;
+
+}
+
+#ven-des {
+    float: left;
+}
+
+#vendestex {
+    padding-right: 250px;
+    padding-left: 120px;
+}
+
+#svgdes {
+    margin-top: 30px;
+}
+
+.clear-right {
+  margin-left: -100px;
+}
+
+#doc2 {
+    margin-right: 250px;
+}
+
+.cdr {
+    color: #616161;
+    border: 5px solid #616161;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.cdr ol {
+    color: #616161;
+}
+
+.cdr ol p {
+    color: #616161;
+}
+
+.titcdr {
+    margin-left: 10px;
+}
+
+#imgbroni {
+    width: 200px;
+    height: 250px;
+}
+
+#diso {
+    margin-left: 250px;
+}
+
+.blubo {
+    color: #616161;
+    border: 5px solid #0091ea;
+    padding: 7px;
+}
+
+#tablees {
+    text-align:center;
+}
+
+#hes {
+    color: white;
+    font-weight: bolder;
+    background-color: #0091ea;
+    padding: 7px;
+}
+
+.celeste {
+    background-color: #b3e5fc;
+    padding: 7px;
+}
+
+.tdblubo {
+    border: 5px solid #0091ea;
+    padding: 5px;
+}
+
+#curva {
+    width: 230px;
+    height: 500px;
+}
+
+#imgcurva {
+    width: 100px;
+    height: 500px;
+}
+
+.aside-right {
+    margin-top: 30px;
+    float: right;
+    width: 230px;
+    color: #616161;
+}
+
+.section-qr {
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    width: 225px;
+    border: #0091ea solid 3px; 
+    padding-top: 10px;
+}
+
+.section-qr a {
+    text-align: center;
+    text-decoration: none;
+    color: #212121
+}
+
+.imgqr {
+    width: 195px;
+    height: 195px;
+}
+
+
+.aside-right p {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+#imglibrera {
+    width: 200px;
+    height: 300px;
+}
+
+.section-left {
+    margin-right: 275px;
+}
+
+.glosario {
+    border: 5px solid #0091ea;
+    padding: 7px;
+}
+
+#imgfrancis {
+    width: 200px;
+    height: 230px;
+}
+
+.section-right {
+    margin-left: 260px;
+}
+
+.aside-left {
+    margin-top: 30px;
+    color: #bdbdbd;
+    float: left;
+    width: 230px;
+}
+
+#imgmuestra {
+    width: 200px;
+}
+
+#imginveso {
+    width: 500px;
+    height: 500px;
+  margin-left: 75px;
+  margin-top: 75px;
+ 
+}
+
+
+.pasos-inveso1 {
+    border: 5px solid #0091ea;
+    padding: 7px;
+    width: 200px;
+  
+}
+
+.inveso-right {
+    float: right;
+}
+
+.pasos-inveso2 {
+    border: 5px solid #0091ea;
+    padding: 7px;
+    width: 200px;
+}
+
+.inveso-left {
+    float: left;
+   
+}
+
+#imginvestigacion {
+    width: 200px;
+}
+
+
+
+.tipos {
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+}
+
+
+#imgbook {
+    margin-left: 300px;
+    width: 200px;
+}
+
+#imgface {
+    margin-left: 175px;
+    width: 200px;
+}
+
+#tipos-marcos1 {
+    
+    height: 75px;
+    
+}
+
+#tipos-marcos2 {
+    
+    height: 75px;
+}
+
+table td {
+    background-color: #e1f5fe;
+    padding: 7px;
+    margin: 5px;
+}
+
+table th {
+    padding: 7px;
+    color:white;
+    font-weight: bold;
+    background-color: #0277bd;
+}
+
+.pale-td {
+    padding: 7px;
+    background-color: #81d4fa;
+    color: #212121;
+    font-weight: bold;
+}
+
+#imgcuestionamiento {
+    width: 200px;
+}
+
+#imgreporte {
+    width: 200px;
+    
+}
+
+#txteva  {
+    fill: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+
+#txteva2 {
+    fill: #ffffff;
+    font-weight: bold;
+}
+
+ol.abc-evaluacion {
+    list-style: lower-alpha;
+    color: #ffbf00;
+}
+
+
+
+.esquema {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.flechas-esquema {
+    display: block;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nueve-siete {
+    font-size: 25px;
+    fill: #f44336;
+}
+
+#volado-turquesa {
+    transform: translate(183px, 0px);
+    -webkit-transform: translate(183px, 0px);
+}
+
+#ocho-ocho {
+    font-size: 25px;
+    fill: #26a69a;
+}
+
+.volado-ambar {
+    transform: translate(366px, 0px);
+    -webkit-transform: translate(366px, 0px);
+}
+
+#nueve-cero {
+    font-size: 25px;
+    fill: #ffbf00;
+    
+}
+
+#circulo-p-ambar {
+    fill: white;
+}
+
+#alaptop {
+    fill: white;
+    transform: scale(0.5, 0.5);
+    transform: translate(160px, 195px);
+    -webkit-transform: translate(160px, 195px);
+    width: 25px;
+    
+}
+
+.volado-azul {
+    transform: translate(3549px, 0px);
+    -webkit-transform: translate(549px, 0px);
+}
+
+#nueve-cinco {
+    transform: translate(366px, 0px);
+    -webkit-transform: translate(366px, 0px);
+    fill: #311b92;
+    font-size: 25px;
+}
+
+.circulo-azul {
+    transform: translate(366px, 0px);
+    -webkit-transform: translate(366px, 0px);
+}
+
+#circulo-p-azul {
+    transform: translate(366px, 0px);
+    -webkit-transform: translate(366px, 0px);
+    fill: white;
+}
+
+.volado-gris {
+    transform: translate(732px, 0px);
+    -webkit-transform: translate(732px, 0px);
+}
+
+#parte-final {
+    transform: translate(1000px, 0px);
+    -webkit-transform: translate(1000px, 0px);
+}
+
+.time-info {
+   color: #616161;
+    font-size: 12px;
+    width: 150px;
+    
+}
+
+#info-uno {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 130px;
+}
+
+#info-dos {
+    margin-top: -90px;
+    margin-left: 310px;
+}
+
+#info-tres {
+    margin-top: -200px;
+    margin-left: 490px;
+}
+
+#info-cuatro {
+    margin-top: 120px;
+    margin-left: 676px;
+}
+
+#info-cinco {
+    margin-top: -200px;
+    margin-left: 859px;
+}
+
+.linea-actividades {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0091ea;
+    padding: 7px;
+    width: 500px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+
+.linea-actividades-l {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #0091ea;
+    padding: 7px;
+    width: 1055px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infos-uno {
+    height: 65px;
+}
+
+#imgcortacafe {
+    width: 220px;
+    height: 150px;
+}
+
+#imgtecnicas {
+    width: 200px;
+    height: 150px;
+}
+
+#imgtomas {
+    height: 200px;
+    width: 150px;
+}
+
+#tabla-cafe {
+    width: 75%;
+    text-align: center;
+}
+
+#fuentes {
+    color: #616161;
+    font-size: 15px;
+   margin-left: 515px;    
+}
+
+#imgmapacafe {
+    width: 75%;
+}
+
